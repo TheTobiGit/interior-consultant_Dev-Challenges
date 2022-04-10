@@ -26,12 +26,14 @@ body {
 #page-nav li {
   /* display: flex; */
   list-style: none;
-  padding-left: 86px;
+  margin-left: 86px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 29px;
+  height: 30px;
+  /* border: 1px solid red; */
 }
 #cur-page {
   text-transform: uppercase;
@@ -44,6 +46,9 @@ body {
   font-size: 14px;
   line-height: 16px;
   white-space: nowrap;
+}
+#page-nav li:hover {
+  border-bottom: 2px solid white;
 }
 
 .main-content {
@@ -144,8 +149,9 @@ body {
 }
 #footer {
   margin-top: 70px;
+  text-align: center;
 }
-#footer p {
+#footer a {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -153,4 +159,5 @@ body {
   line-height: 17px;
   text-align: center;
   color: #A9A9A9;
+  text-decoration: none;
 }
